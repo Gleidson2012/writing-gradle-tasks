@@ -318,31 +318,6 @@ Hello, World <i class="conum" data-value="2"></i><b>(2)</b></pre>
 <div class="paragraph">
 <p>Congratulations! You have added your first ad-hoc task.</p>
 </div>
-<div class="admonitionblock important multi-language-text lang-groovy">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-important" title="Important"></i>
-</td>
-<td class="content">
-<div class="title">Do not use &lt;&lt; as an alternative to doLast</div>
-<div class="listingblock">
-<div class="content">
-<pre class="prettyprint highlight"><code class="language-groovy" data-lang="groovy">task hello &lt;&lt; {
-  println 'Hello, World!'
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>You may comes across an alternative form for creating ad-hoc tasks in some older documentation and blog posts whereby the left-shift operator (<code>&lt;&lt;</code>) is used.</p>
-</div>
-<div class="paragraph">
-<p>This form has caused too much confusion in the past especially among people that are new to Gradle. It also reduces readability. We have <a href="https://docs.gradle.org/3.2/release-notes#the-left-shift-operator-on-the-task-interface">deprecated this behaviour</a> and the functionality will be removed in Gradle 5.0.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
 </div>
 </div>
 <div class="sect1">
